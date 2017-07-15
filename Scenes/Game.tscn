@@ -1,5 +1,14 @@
-[gd_scene format=1]
+[gd_scene load_steps=2 format=1]
+
+[ext_resource path="res://Scripts/Game.gd" type="Script" id=1]
 
 [node name="Game" type="Node"]
+
+script/script = ExtResource( 1 )
+inner_grid_size = Vector2( 8, 8 )
+perim_thickness = Vector2( 1, 1 )
+count_obstacles = Vector2( 2, 7 )
+count_items = Vector2( 3, 6 )
+count_enemies = Vector2( 2, 2 )
 
 
